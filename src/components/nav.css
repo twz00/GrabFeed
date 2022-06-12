@@ -1,0 +1,37 @@
+.nav {
+  top: 0;
+  width: 100%;
+  background: white;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.096);
+  z-index: 3;
+  height: 70px;
+}
+
+.navWrapper_ {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px;
+  align-items: center;
+}
+
+.navWrapper_ > img {
+  width: 5%;
+}
+
+.navBtn {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  font-weight: 550;
+  cursor: pointer;
+  padding: 10px;
+  position: relative;
+}
+
+.count {
+  position: absolute;
+  top: 0;
+  color: red;
+}

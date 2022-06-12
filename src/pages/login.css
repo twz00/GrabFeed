@@ -1,0 +1,150 @@
+.nav_login {
+  width: 100%;
+  height: 53px;
+  align-items: center;
+  display: flex;
+  padding: 5px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+}
+
+.navWrapper {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navWrapper > img {
+  width: auto;
+  height: 24px;
+}
+
+.navWrapper > div {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  padding: 0px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: 550;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+
+.navWrapper > div > p {
+  margin: 10px;
+}
+
+.navWrapper > div:hover {
+  background-color: rgba(1, 176, 78, 0.8);
+  color: white;
+}
+
+.login {
+  width: 400px;
+  height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10em;
+}
+
+.login > h2 {
+  margin-bottom: 5px;
+}
+
+.login > p {
+  margin-bottom: 5px;
+}
+
+.Wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #676767;
+}
+
+.formInput {
+  display: flex;
+  align-items: center;
+}
+
+.formInputBus {
+  display: flex;
+  flex-direction: column;
+}
+
+.formInputBus > input {
+  height: 2em;
+  padding: 10px;
+  border-radius: 0.5em;
+  border-color: rgba(0, 0, 0, 0.07);
+  margin: 0.5em 0em;
+}
+
+.country {
+  border: 2px solid rgba(0, 0, 0, 0.07);
+  padding: 8px;
+  border-radius: 0.5em;
+}
+
+.formInput > input {
+  height: 2em;
+  padding: 5px;
+  border-radius: 0.5em;
+  border-color: rgba(0, 0, 0, 0.07);
+  margin: 10px;
+  width: 100%;
+}
+
+.rem {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.rem > input {
+  margin-right: 10px;
+}
+
+.rem > p {
+  width: 100%;
+}
+.submitbtn {
+  width: 100%;
+  height: 40px;
+  border-radius: 6px;
+  border: none;
+  font-size: 15px;
+  font-weight: 550;
+  color: #ccd6dd;
+  cursor: not-allowed;
+  margin-top: 10px;
+}
+
+.allowed {
+  background-color: #c0c0c0;
+  color: black;
+}
+
+.allowed:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#terms {
+  font-size: 11px;
+  text-align: center;
+  color: #676767;
+  margin-top: 12px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#id > span {
+  text-decoration: underline;
+}

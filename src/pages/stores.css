@@ -1,0 +1,114 @@
+.storesbtnWrapper {
+  display: flex;
+  margin-right: 30px;
+}
+.foodbanner {
+  margin: 5px 0px;
+  width: 100%;
+  height: 320px;
+  background-image: url("../images/bannerfoto.jpg");
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow-x: hidden;
+  z-index: -1;
+}
+
+.bannerP {
+  position: absolute;
+  margin: 0px;
+  padding: 20px 0px;
+  width: 100%;
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 4px solid #f1f1f1;
+  top: 200px;
+  left: auto;
+  text-align: center;
+  font-size: 350%;
+  color: white;
+  font-style: bold;
+  z-index: 1;
+}
+
+.hidden {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.btn {
+  cursor: pointer;
+  text-align: left;
+  width: 100%;
+}
+
+.header {
+  font-size: 40px;
+  margin: 40px;
+}
+
+.storesContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 40px;
+}
+
+.storesContainer > h2 {
+  padding-left: 35px;
+  padding-bottom: 20px;
+}
+
+.storesDetail {
+  margin-left: 2%;
+  margin-right: 2%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: auto;
+}
+
+.storeD {
+  width: 300px;
+  max-height: 380px;
+}
+
+.imgContainer {
+  width: 100%;
+  height: 160px;
+  overflow: hidden;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+
+.imgContainer > img {
+  overflow: hidden;
+  position: center;
+  object-fit: cover;
+  width: 100%;
+  /* height: 210px; */
+}
+
+.metadata {
+  width: 80%;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.metadata > div {
+  display: flex;
+  align-items: center;
+}
+
+.metadata > div > p {
+  margin-left: 5px;
+  font-size: 13px;
+}

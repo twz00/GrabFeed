@@ -1,0 +1,198 @@
+.profileContainer {
+  display: flex;
+}
+.profileNav {
+  background-color: black;
+  width: 25%;
+  height: 100vh;
+  color: white;
+}
+
+.profileNav button {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.profileIcon {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 25px;
+}
+
+.profileIcon > img {
+  width: 70px;
+}
+
+.current {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.settingsItem > div {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.settingsItem > div > p {
+  margin: 0px;
+  font-size: 18px;
+}
+
+.profileHero {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.MeIcon {
+  text-align: center;
+  padding: 20px;
+  border-bottom: 1.5px solid rgba(0, 0, 0, 0.2);
+}
+
+.MeIcon > p {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 8px;
+}
+
+.Info {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.basicInfo {
+  padding: 10px 25px;
+}
+
+.basicWrapper {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.basicWrapper > div {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.basicWrapper > div > p {
+  width: 40%;
+}
+
+.bold {
+  font-weight: 650;
+}
+
+.jobInfo {
+  padding: 0px 25px;
+}
+
+.jobWrapper {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.jobWrapper > div {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.jobWrapper > div > p {
+  width: 40%;
+}
+
+.underline {
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+}
+
+.declared {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  padding: 5px;
+}
+
+.eligible {
+  padding: 10px 25px;
+}
+
+.eligible > h2 {
+  margin-left: 25px;
+}
+
+.declared > p {
+  font-size: 20px;
+  font-weight: 700;
+  color: green;
+}
+
+.eligibleWrapper {
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px 0px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.eligibleWrapper > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.eligibleWrapper > p {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.howto {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.singPass,
+.doc {
+  width: 80%;
+  border: 0.8px solid rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.spanContainer {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.spanContainer > span {
+  width: 40%;
+  height: 1px;
+  background-color: black;
+  padding: 0px;
+  margin: 0px;
+}
+
+.spanContainer > p {
+  padding: 0px 20px;
+}

@@ -1,0 +1,136 @@
+.cartContainer {
+  top: 0;
+  width: 450px;
+  height: 100vh;
+  position: absolute;
+  right: 0;
+  border-left: 2px solid rgba(0, 0, 0, 0.03);
+  background-color: #fff;
+  z-index: 10;
+}
+
+.navWrap {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  border-bottom: 10px solid rgba(0, 0, 0, 0.03);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cartNav {
+  height: fit;
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  text-align: center;
+}
+
+.cartNav > p {
+  margin: 0;
+  padding: 0;
+}
+
+.ordersContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 25px 0px 0px 0px;
+  border-bottom: 10px solid rgba(0, 0, 0, 0.03);
+}
+
+.orderSummary {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.orderHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.orderHeader > h2 {
+  margin: 0px;
+}
+
+.orderContainer {
+  height: 370px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px 0px;
+  border-bottom: 1.2px solid rgba(0, 0, 0, 0.05);
+  overflow: scroll;
+}
+
+.orderContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.orders {
+  display: flex;
+  width: 100%;
+}
+
+.orders_name {
+  width: 60%;
+  font-weight: 600;
+}
+
+.orders_qty,
+.orders_price {
+  width: 20%;
+  text-align: center;
+}
+
+.totalContainer {
+  padding: 10px 0px;
+}
+
+.totalContainer > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.totalContainer > div > p {
+  margin: 3px;
+}
+
+.subtotal {
+  text-decoration: line-through;
+}
+.checkoutContainer {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.totalPrice {
+  display: flex;
+  flex-direction: column;
+}
+
+.totalPrice > p {
+  margin: 0px;
+  padding: 5px;
+}
+
+.orderBtn {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 15px 45px;
+  background-color: #01b04e;
+  border-radius: 10px;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+}

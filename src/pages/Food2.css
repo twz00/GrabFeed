@@ -1,0 +1,59 @@
+.overlayFood2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 4;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  opacity: 0.8;
+}
+
+.cover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+}
+
+.notice2 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.notice2 > p {
+  width: 100%;
+  text-align: center;
+  animation: blinker 1.5s linear infinite;
+  color: red;
+  margin: 0px;
+  padding-bottom: 20px;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+.addIcon {
+  color: green;
+  font-size: 40px;
+  cursor: pointer;
+  right: 0;
+  width: 20%;
+  padding-bottom: 20px;
+}
+
+.food2 {
+  background-color: rgba(0, 0, 0, 0.04);
+  padding: 18px;
+  width: 80%;
+  height: 250px;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}

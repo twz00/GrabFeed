@@ -1,0 +1,94 @@
+.overlayFood {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 4;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  opacity: 0.8;
+}
+
+.cover {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.contents {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(243, 243, 243);
+  overflow: hidden;
+}
+
+.contentsBody {
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.menu {
+  font-size: 2.87142857rem;
+  line-height: 1.33333333;
+  font-weight: 500;
+}
+.foodItems {
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.foodBox {
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: row;
+  justify-content: right;
+  padding: 15px;
+  margin-bottom: 20px;
+  width: 330px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.foodBox > img {
+  position: relative;
+  top: 0;
+  margin-right: 35px;
+  object-fit: contain;
+  width: 110px;
+  height: 110px;
+  border-radius: 15px;
+}
+
+.foodBox > button {
+  position: relative;
+  margin-left: 50%;
+  width: 30px;
+  height: 30px;
+  background-image: url("../images/addFoodButton.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 0;
+  cursor: pointer;
+}
+
+.foodBoxh1 {
+  width: 180px;
+  padding-bottom: 10px;
+  font-size: 1.14285714rem;
+  font-weight: 400;
+  color: #1c1c1c;
+  line-height: 1.1;
+}
+
+.foodBoxp {
+  padding-bottom: 10px;
+  width: 180px;
+  font-size: 0.9rem;
+  color: rgb(165, 165, 165);
+  line-height: 1.3;
+}

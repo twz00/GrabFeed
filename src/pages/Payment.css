@@ -1,0 +1,219 @@
+.entire-background {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+}
+
+.dark-green {
+  height: 50%;
+  background-color: #2bae66ff;
+  position: relative;
+}
+
+.light-green {
+  height: 50%;
+  background-color: rgb(141, 199, 167);
+}
+
+.curve {
+  position: absolute;
+  height: 250px;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+}
+
+.curve::before {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  width: 55%;
+  height: 100%;
+  transform: translate(85%, 60%);
+  background-color: rgb(141, 199, 167);
+}
+
+.curve::after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  width: 55%;
+  height: 100%;
+  background-color: #2bae66ff;
+  transform: translate(-4%, 40%);
+  z-index: 1;
+}
+
+.navbar {
+  top: 0;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  color: white;
+}
+
+.navbar div {
+  display: flex;
+  align-items: center;
+}
+
+.navbar div span {
+  margin-right: 20px;
+}
+
+.left-arrow {
+  padding-top: 5px;
+  cursor: pointer;
+}
+
+.app-container {
+  width: 350px;
+  background-image: linear-gradient(#2bae66ff, rgb(141, 199, 167));
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  z-index: 999;
+}
+
+.top-box {
+  height: 120px;
+  background-color: #50c075;
+  border-bottom-left-radius: 80px;
+  border-bottom-right-radius: 80px;
+}
+
+.top-box p {
+  text-align: center;
+  padding-top: 20px;
+  color: #fff;
+}
+
+.left-icon {
+  float: left;
+  margin-left: 30px;
+}
+
+.right-icon {
+  float: right;
+  margin-right: 30px;
+}
+
+.middle-box {
+  background-image: linear-gradient(#2bae66ff, rgb(141, 199, 167));
+  margin: -70px 30px 20px;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  border-radius: 10px;
+}
+
+.middle-box p {
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.middle-box h1 {
+  padding-top: 30px;
+  font-size: 50px;
+  font-weight: normal;
+}
+
+.middle-box h1 span {
+  font-size: 20px;
+  margin-left: 5px;
+  bottom: 18px;
+  position: relative;
+}
+
+.payment-option-btn {
+  color: #fff;
+  margin: 5px 30px;
+  height: 30px;
+  width: 290px;
+  background-color: #1e9050;
+  border: none;
+  cursor: pointer;
+}
+
+.card-details {
+  background: #1e9050;
+  color: #fff;
+  margin: 10px 30px;
+  padding: 10px;
+}
+
+.card-details p {
+  font-size: 14px;
+}
+
+.card-details label {
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.card-num-field-group {
+  margin-top: 10px;
+}
+
+.card-num-field {
+  width: 85%;
+  border: none;
+}
+
+.date-field-group {
+  margin-top: 10px;
+  display: inline-block;
+  width: 90%;
+}
+
+.date-field {
+  wiidth: 50%;
+}
+
+.cvc-field-group {
+  margin-top: 10px;
+  display: inline-block;
+  float: right;
+}
+
+.name-field-group {
+  margin-top: 10px;
+}
+
+.card-num-field-group,
+.name-field {
+  width: 270px;
+}
+
+.date-field,
+.cvc-field {
+  width: 80px;
+}
+
+.card-details input {
+  border: 1px solid #ccc;
+  height: 22px;
+  padding: 5px;
+  font-size: 10px;
+}
+
+.card-details input::placeholder {
+  color: #ccc;
+}
+
+.pay-btn {
+  width: 270px;
+  color: #fff;
+  margin-top: 20px;
+  height: 30px;
+  background-color: #1e9050;
+  border: none;
+  cursor: pointer;
+}
